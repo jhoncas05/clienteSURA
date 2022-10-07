@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#logo {
+    border: solid 3px #FFD000;
+    padding: 10px;
+    margin-top: 45px;
+    width: 185px;
+
+}
+
+.row {
+    display: flex;
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 190px;
+    font-size: 25px;
+}
+
+button {
+    width: 180px;
+    background-color: transparent;
+    color: white;
+}
+
+.mt-4 {
+    margin-right: 28px;
+}
+
+#section2 {
+    background-color: #FFD000;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#card {
+    width: 850px;
+    height: 600px;
+    background-color: black;
+    box-shadow: #ffffff 10px 10px 0px;
+    border: solid #62676A 2px;
+    margin-left: 180px;
+}
+
+.absolute {
+    background-color: #62676A;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#guardar {
+    margin-left: 110px;
+}
+
+#cancelar {
+    margin-left: 450px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 55px;
+}
+#card input{
+    width: 60%;
+    height: 45px;
+    border: 1px solid #FFD000;
+    outline: 0;
+    background: transparent;
+    text-align: center;
+    font-size: 35px;
+}
+#file{
+    color: white;
+    
+}
+
+#file::before{
+    color: #62676A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: ' SUBIR UNA IMAGEN'; /* testo por defecto */
+    width: 100%;
+    height: 45px;
+}
